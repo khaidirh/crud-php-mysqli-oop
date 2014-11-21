@@ -1,0 +1,12 @@
+/**********************************
+* Musa Amin		  	  			  *
+* url 	: musaamin.web.id	      *
+* tw 	: @musaamin		  		  * 
+* fb 	: /musaamin		   		  *
+* <sebarkan walau sebaris kode /> *
+**********************************/
+
+import file latihan_php.sql melalui phpmyadmin
+sesuaikan koneksi database pada file connect_db.php
+
+selamat mencoba :)
