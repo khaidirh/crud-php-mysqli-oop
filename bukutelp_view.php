@@ -18,7 +18,6 @@
  $result = $mysqli->query($sql);
  $i=1;
  while($row=$result->fetch_assoc()){
-<<<<<<< HEAD
   //extract row
   //this will make $row['firstname'] to just $firstname only
   extract($row);  
@@ -34,20 +33,6 @@
   $i++;
  }
  $result->free();
-=======
-  echo "<tr>
-  	     <td>".$i."</td>
-	       <td>".$row['nama']."</td>
-  	     <td>".$row['alamat']."</td>
-  	     <td>".$row['telp']."</td>
-  	     <td>".$row['email']."</td>
-	       <td><a href=\"bukutelp_form_edit.php?id=".$row['id']."\">Edit</a> 
-	           <a href=\"bukutelp_delete.php?id=".$row['id']."\">Delete</a></td>
- 	      </tr>";
-  $i++;
- }
-
->>>>>>> 890dff3d9321baf7b6deb4ff358a9c4dd71d6d50
  $mysqli->close();
 ?>  
 </table>
